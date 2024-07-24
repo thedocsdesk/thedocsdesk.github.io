@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The DocsDesk</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="name">The DocsDesk</div>
+        <div class="search-container">
+          <input type="text" placeholder=" 🔍 Search Page..." class="search-bar" />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#blog" class="menu">Blog</a></li>
+          <li><a href="#services" class="menu">Services</a></li>
+          <li><a href="#about" class="menu">About</a></li>
+          <li><a href="#contact" class="menu">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="quote1" align="center"> || यद् भावं तद् भवति || </div>
+    <div id="home" class="home">
+      <img src="bg2.jpg" alt="Background Image" />
+    </div>
+    <h2 class="q2">To Help, to Heal, to Educate people; the ultimate challenge.</h2>
+    <div id="blog" class="container">
+      <h1>Recent Posts</h1>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper" id="reels-container"></div>
+    <!-- <div class="swiper-pagination"></div>-->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> 
+    </div>
+  </header>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
